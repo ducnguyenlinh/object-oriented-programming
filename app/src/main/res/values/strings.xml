@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quan Li Thu Vien</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_thong_tin_sach">Danh Sach Sach</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="error_empty">Ban phai dien du thong tin nay!</string>
+    <string name="title_activity_sach">Danh Sach Sach</string>
+    <string name="title_activity_pepple">Danh Sach User</string>
+    <string name="title_activity_muon_sach">MuonSach</string>
+    <string name="title_activity_tra_sach">Tra Sach</string>
+</resources>

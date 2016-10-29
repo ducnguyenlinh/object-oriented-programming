@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_sua"
+        android:orderInCategory="100"
+        android:title="Sua thong tin nguoi dung"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_xoa"
+        android:orderInCategory="100"
+        android:title="Xoa thong tin nguoi dung"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_xem"
+        android:orderInCategory="100"
+        android:title="Xem thong tin nguoi dung"
+        app:showAsAction="never" />
+</menu>

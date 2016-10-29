@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#08ff00"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.duclinh1610.muon_tra.MuonSach"
+    tools:showIn="@layout/activity_muon_sach">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="MUON SACH"
+        android:gravity="center"
+        android:textSize="21dp"
+        android:textColor="#003cff"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma Sach: "
+                android:textSize="15dp"
+                android:textColor="#fdff0d00"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_marginTop="15dp"
+                android:id="@+id/maSach"
+                android:layout_column="1"
+                android:ems="11"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSSV: "
+                android:textSize="15dp"
+                android:textColor="#fdff0d00"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_marginTop="15dp"
+                android:id="@+id/maSV"
+                android:layout_column="1"
+                android:ems="11"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngay Muon: "
+                android:textSize="15dp"
+                android:textColor="#fdff0d00"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_marginTop="15dp"
+                android:id="@+id/ngayMuon"
+                android:layout_column="1"
+                android:ems="11"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngay Tra: "
+                android:textSize="15dp"
+                android:textColor="#fdff0d00"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_marginTop="15dp"
+                android:id="@+id/ngayTra"
+                android:layout_column="1"
+                android:ems="11"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:text="Ok"
+                android:textSize="20dp"
+                android:layout_column="1"
+                android:id="@+id/btnOk"
+                android:layout_marginTop="20dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
